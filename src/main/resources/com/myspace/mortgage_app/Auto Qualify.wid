@@ -1,0 +1,13 @@
+[
+  [
+    "name" : "AutoQualify", 
+    "parameters" : [ 
+        "Application": new ObjectDataType()
+    ], 
+    "results" : [ 
+        "Result" : new ObjectDataType("java.util.Map") 
+    ], 
+    "displayName" : "Auto Qualify", 
+    "icon" : "" 
+  ]
+]
