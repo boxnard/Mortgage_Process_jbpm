@@ -10,27 +10,21 @@
   <description>Getting started loan approval process in BPMN2, decision table, business rules, and forms.</description>
   <dependencies>
     <dependency>
-      <groupId>org.kie</groupId>
-      <artifactId>kie-api</artifactId>
-      <version>7.7.0.Final-redhat-7</version>
-      <scope>provided</scope>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.10</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.kie</groupId>
       <artifactId>kie-internal</artifactId>
-      <version>7.7.0.Final-redhat-7</version>
+      <version>7.18.0.Final-redhat-00002</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.optaplanner</groupId>
       <artifactId>optaplanner-core</artifactId>
-      <version>7.7.0.Final-redhat-7</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.optaplanner</groupId>
-      <artifactId>optaplanner-persistence-jaxb</artifactId>
-      <version>7.7.0.Final-redhat-7</version>
+      <version>7.18.0.Final-redhat-00002</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -40,14 +34,20 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.thoughtworks.xstream</groupId>
-      <artifactId>xstream</artifactId>
-      <version>1.4.10</version>
-      <scope>test</scope>
+      <groupId>org.optaplanner</groupId>
+      <artifactId>optaplanner-persistence-jaxb</artifactId>
+      <version>7.18.0.Final-redhat-00002</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>7.18.0.Final-redhat-00002</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.soprasteria.pamdemo</groupId>
-      <artifactId>mortgage-wih-autoquality</artifactId>
+      <artifactId>mortgage-with-autoqualify</artifactId>
       <version>1.0.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
@@ -57,7 +57,7 @@
       <plugin>
         <groupId>org.kie</groupId>
         <artifactId>kie-maven-plugin</artifactId>
-        <version>7.7.0.Final-redhat-7</version>
+        <version>7.18.0.Final-redhat-00002</version>
         <extensions>true</extensions>
       </plugin>
     </plugins>
